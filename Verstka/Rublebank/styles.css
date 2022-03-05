@@ -1,0 +1,96 @@
+/* общие стили */
+
+body{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+
+.btn{
+    width: 200px;
+    height: 55px;
+    padding: 17px 26px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+/* стили хэдэра */
+.header-top{
+    border: 1px solid #DEDEDE;
+}
+
+.header-top-info{
+    height: 67px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.top-menu{
+    display: flex;
+}
+
+.top-menu-list{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.top-menu-list a{
+    color: #424242;
+}
+
+.top-menu-list-left{
+    width: 352px;
+}
+
+.top-menu-list-right{
+    340px
+}
+
+.main-menu-list{
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu-list a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+.main-banner-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-offer-text{
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 110%;
+    
+}
+
+.banner-battoms{
+    display: flex;
+    justify-content: space-between;
+}
