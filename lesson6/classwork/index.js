@@ -1,0 +1,4 @@
+
+
+const myString = "строка";
+
