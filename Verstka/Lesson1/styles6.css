@@ -69,3 +69,9 @@ a:hover {
 .block img {
     width: 70%;
 }
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

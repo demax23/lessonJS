@@ -1,6 +1,7 @@
 /* общие стили */
 
 body{
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 
@@ -30,6 +31,22 @@ ul{
     box-sizing: border-box;
 }
 
+.btn-primary{
+    background-color: #3A95FF;
+    color: #fff;
+}
+.btn-secondary{
+    border: 1px solid #3A95FF;
+    color: #3A95FF;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 437px;
+}
+
+
 
 /* стили хэдэра */
 .header-top{
@@ -40,16 +57,21 @@ ul{
     height: 67px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-menu{
     display: flex;
+    justify-content: space-between;
+    /* width: 945px; */
 }
 
 .top-menu-list{
     display: flex;
     font-size: 14px;
     font-weight: 500;
+    justify-content: space-between;
+  
 
 }
 .top-menu-list a{
@@ -57,11 +79,19 @@ ul{
 }
 
 .top-menu-list-left{
+    display: flex;
+    justify-content: space-evenly;
     width: 352px;
+    margin-right: 253px;
+
 }
 
 .top-menu-list-right{
-    340px
+    display: flex;
+    justify-content: space-evenly;
+   width: 340px
+   margin-left: 253px;
+   
 }
 
 .main-menu-list{
@@ -78,19 +108,185 @@ ul{
 
 }
 
+.main-banner{
+box-shadow: 0px 4 px 20 px rgba(0, 0, 0, 0.1);
+} 
+
 .main-banner-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .banner-offer-text{
     font-weight: 600;
     font-size: 52px;
     line-height: 110%;
-    
+    color: #212121;
+    margin-bottom: 63px;
 }
 
 .banner-battoms{
     display: flex;
     justify-content: space-between;
+
 }
+/* лучшие преддожения */
+
+.offers-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 70px;
+    
+}
+.offers-info-item{
+    display: flex;
+    background: #EFF2F5;
+box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+width: 555px;
+margin-bottom: 62px;
+}
+
+.offers-info-item img{
+  border-radius: 0 8px 8px 0;
+}
+.info-item-text{
+ 
+}
+
+.credits {
+    background-color: #EFF2F5;
+    height: 775px;
+  }
+
+  .credits-wrap{
+      display: flex;
+      align-items: center;
+
+  }
+  .credits-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .credits-60 {
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    box-sizing: border-box;
+    height: 775px;
+  }
+  .credits-60-items {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;
+    margin-bottom: 40px;
+  }
+  .credits-60-head {
+    display: flex;
+    justify-content: space-between;
+    width: 618px;
+  }
+  .credits-60-head p {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+  }
+  .credits-60-item {
+    text-align: center;
+  }
+  .credits-60-item p{
+    margin: 0;
+    padding: 8px;
+  }
+  .credits-60-item-head {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+    border-bottom: 1px solid #3A95FF;
+  }
+  .credits-side-link {
+      /* display: flex;
+      flex-wrap: wrap; */
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+    width: 360px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    box-sizing: border-box;
+  }
+  .credits-side-link img {
+align-self: flex-end;
+  }
+  
+
+  .get-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .get-card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer{
+   background-color: #EFF2F5
+  }
+  .footer-info{
+    display: flex;
+    
+  }
+
+  .footer-info-inem{
+    width: 360px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: #424242;
+
+
+  }
+
+  /* страница дебетовых карт */
+
+  .debet-cards-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #EFF2F5;
+box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+border-radius: 8px;
+margin-bottom: 70px;
+
+  }
+  .debet-cards-item-info h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #212121;
+    margin-top: 0px;
+  }
+
+  .debet-cards-item-info p {
+font-weight: 400;
+font-size: 20px;
+line-height: 200%;
+color: #424242;
+  }

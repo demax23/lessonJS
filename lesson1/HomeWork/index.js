@@ -7,3 +7,4 @@ console.log(usersCurrenttime);
 let numberOfarticles = 12;
 console.log(numberOfarticles);
 
+let isThisAcashPaymen

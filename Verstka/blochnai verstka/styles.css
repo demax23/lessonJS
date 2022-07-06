@@ -10,6 +10,16 @@ ul{
     width: 1140px;
     margin: 0 auto;
 }
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrap1{
+    flex: 1;
+}
 /* стили хэдер */
 header{
     background-color: aqua;
