@@ -1,0 +1,15 @@
+
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.container{
+    background-color: blueviolet;
+    text-decoration-color: antiquewhite;
+}
